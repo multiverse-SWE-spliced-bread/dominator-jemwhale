@@ -6,5 +6,5 @@ function addChat(e){
     newP.innerText = document.getElementById('message').value;
     // newP.innerText = message;
     article.appendChild(newP);
-    
+    document.getElementById('message').value = ''
 }

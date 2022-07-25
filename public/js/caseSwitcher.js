@@ -16,7 +16,7 @@ function sarcCase(e){
     let high = p.innerText.toUpperCase();
     let newStr = ''
     for (i=0; i<low.length; i++){
-        if(i%2 === 0){
+        if(i%2 !== 0){
             newStr += high[i]
         }else{
             newStr += low[i]
