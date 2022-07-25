@@ -6,10 +6,10 @@ quietBtn.addEventListener('click', lowerCase);
 loudBtn.addEventListener('click', upperCase);
 sarcBtn.addEventListener('click', sarcCase);
 function lowerCase(e){
-    p.innerText = p.innerText.toUpperCase()
+    p.innerText = p.innerText.toLowerCase()
 }
 function upperCase(e){
-    p.innerText = p.innerText.toLowerCase()
+    p.innerText = p.innerText.toUpperCase()
 }
 function sarcCase(e){
     let low = p.innerText.toLowerCase();
